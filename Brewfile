@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'homebrew/science'
+tap 'prisma/prisma'
 
 brew 'ack'
 brew 'coreutils'
@@ -25,6 +25,7 @@ brew 'neo4j'
 brew 'node'
 brew 'openssl'
 brew 'postgresql'
+brew 'prisma'
 brew 'python3'
 brew 'readline'
 brew 'redis'
