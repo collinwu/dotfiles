@@ -1,0 +1,12 @@
+cython
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+mypy
+tensorflow
+keras
+spacy
+fasttext
+pybind11
