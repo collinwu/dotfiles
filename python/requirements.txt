@@ -10,3 +10,4 @@ keras
 spacy
 fasttext
 pybind11
+nltk
