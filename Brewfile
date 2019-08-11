@@ -1,11 +1,13 @@
 cask_args appdir: '/Applications'
 
+tap 'elastic/tap'
 tap 'homebrew/bundle'
 tap 'prisma/prisma'
 
 brew 'ack'
 brew 'coreutils'
 brew 'dislocker'
+brew 'elastic/tap/elasticsearch-full'
 brew 'gcc'
 brew 'git'
 brew 'git-crypt'
