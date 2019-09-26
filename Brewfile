@@ -5,6 +5,7 @@ tap 'homebrew/bundle'
 tap 'prisma/prisma'
 
 brew 'ack'
+brew 'ansible'
 brew 'coreutils'
 brew 'dislocker'
 brew 'elastic/tap/elasticsearch-full'
