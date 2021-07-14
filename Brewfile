@@ -1,7 +1,11 @@
 cask_args appdir: '/Applications'
 
+# Taps
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/services'
 
+# Formulae
 brew 'ack'
 brew 'ansible'
 brew 'asdf'
@@ -37,7 +41,9 @@ brew 'wordnet'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 
+# Casks
 cask '1password'
+cask 'anaconda'
 cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
