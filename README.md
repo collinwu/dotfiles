@@ -1,55 +1,37 @@
 # dotfiles
 
-Your dotfiles are how you personalize your system. These are mine. Largely imported from [@holman's](https://github.com/holman/dotfiles)
+Your dotfiles are how you personalize your system. These are mine. Largely modified from [@wulymammoth's](https://github.com/wulymammoth/dotfiles)
 
-## topical
+## Topical
 
 Everything's built around topic areas. If you're adding a new area to your
 forked dotfiles — say, "Java" — you can simply add a `java` directory and put
-files in there. Anything with an extension of `.zsh` will get automatically
-included into your shell. Anything with an extension of `.symlink` will get
-symlinked without extension into `$HOME` when you run `script/bootstrap`.
+files in there.
 
-## components
+I'm using [GNU Stow](https://www.gnu.org/software/stow/) to symlink my dotfiles and each directory that you see here mirrors that of my $HOME directory -- some application and utility configurations typically go under $XDG_CONFIG (~/.config).
 
-There's a few special files in the hierarchy.
+Details about leveraging [Stow](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/)
 
-- **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
-  available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
-- **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
-  environment.
-- **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
-  expected to setup `$PATH` or similar.
-- **topic/completion.zsh**: Any file named `completion.zsh` is loaded
-  last and is expected to setup autocomplete.
-- **topic/install.sh**: Any file named `install.sh` is executed when you run `script/install`. To avoid being loaded automatically, its extension is `.sh`, not `.zsh`.
-- **topic/\*.symlink**: Any file ending in `*.symlink` gets symlinked into
-  your `$HOME`. This is so you can keep all of those versioned in your dotfiles
-  but still keep those autoloaded files in your home directory. These get
-  symlinked in when you run `script/bootstrap`.
+## Install
 
-## install
+**IMPORTANT** - before running `boostrap` - check `homebrew/Brewfile` for any Mac App Store applications you would not want. There are at least _**two**_ paid applications included in this `Brewfile`
 
 Run this:
 
 ```sh
-git clone https://github.com/collinwu/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-script/bootstrap
+# clone and bootstrap
+$ git clone https://github.com/collinwu/dotfiles.git ~/.dotfiles
+$ cd ~/.dotfiles
+$ bootstrap
+
+# run stow to symlink to $HOME
+$ stow asdf
+$ stow zsg
+$ stow ...
 ```
 
-This will symlink the appropriate files in `.dotfiles` to your home directory.
-Everything is configured and tweaked within `~/.dotfiles`.
+Run through [CHECKLIST](CHECKLIST.md) afterward as well.
 
-The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
-which sets up a few paths that'll be different on your particular machine.
+## Thanks
 
-`dot` is a simple script that installs some dependencies, sets sane macOS
-defaults, and so on. Tweak this script, and occasionally run `dot` from
-time to time to keep your environment fresh and up-to-date. You can find
-this script in `bin/`.
-
-## thanks
-
-Inspired by [Zach Holman's dotfile repo](https://github.com/holman/dotfiles) and a desire to be more organized and speed up environment setup.
+Originally inspired by [Zach Holman's dotfile repo](https://github.com/holman/dotfiles) and a desire to be more organized and speed up environment setup. Updated and made more streamlined based on [Wulymammoth's dotfile repo](https://github.com/wulymammoth/dotfiles)
