@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[core]
+  excludesfile = ~/.gitignore_global
+  pager = delta
+
+[credential]
+  helper = osxkeychain
+
+[grep]
+  lineNumber = true
+
+[user]
+# Please adapt and uncomment the following lines:
+	name = collin
+	email = collinwu@users.noreply.github.com
