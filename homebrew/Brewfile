@@ -40,6 +40,7 @@ cask 'discord'
 cask 'dropbox'
 cask 'docker'
 cask 'iterm2'
+cask 'mullvadvpn'             # vpn
 cask 'obsidian'               # Knowledge base that works on top of a local folder of plain text Markdown files
 cask 'spotify'
 cask 'steam'
