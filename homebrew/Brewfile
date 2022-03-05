@@ -34,13 +34,15 @@ brew 'zsh-syntax-highlighting'   # Fish shell like syntax highlighting for zsh
 ## casks
 cask_args appdir: '~/Applications', require_sha: true
 
+cask 'bartender'              # Menu bar icon organizer
 cask 'brave-browser'
 cask 'cryptomator'            # Multi-platform client-side cloud file encryption tool
 cask 'discord'
 cask 'dropbox'
 cask 'docker'
+cask 'istat-menus'            # System monitor for menubar
 cask 'iterm2'
-cask 'mullvadvpn'             # vpn
+cask 'mullvadvpn'             # VPN
 cask 'obsidian'               # Knowledge base that works on top of a local folder of plain text Markdown files
 cask 'spotify'
 cask 'steam'
