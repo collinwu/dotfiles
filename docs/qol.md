@@ -15,6 +15,7 @@
 - Mac Apps
   - [Alfred & Alfred Power Pack](https://www.alfredapp.com/)
     - **Note:** Could store and sync your Alfred preferences in a number of ways, Dropbox is supported by default.
+    - [Awesome Alfred Workflows](https://github.com/alfred-workflows/awesome-alfred-workflows) & [Alfred Workflows](https://github.com/zenorocha/alfred-workflows)
   - [iStat Menus](https://bjango.com/mac/istatmenus/)
   - [Spotify](https://www.spotify.com/us/download/)
 
