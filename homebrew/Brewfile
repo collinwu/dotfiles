@@ -38,21 +38,18 @@ cask 'bartender'              # Menu bar icon organizer
 cask 'brave-browser'
 cask 'cryptomator'            # Multi-platform client-side cloud file encryption tool
 cask 'discord'
-cask 'dropbox'
 cask 'docker'
-cask 'istat-menus'            # System monitor for menubar
 cask 'iterm2'
 cask 'mullvadvpn'             # VPN
 cask 'obsidian'               # Knowledge base that works on top of a local folder of plain text Markdown files
-cask 'spotify'
-cask 'steam'
 cask 'visual-studio-code'
 cask 'vlc'
 
 ## App Store
 mas '1Password',      id: 1333542190
-mas 'Alfred',         id: 405843582   # A better "Spotlight" w/ dev tool integrations
 mas 'BetterSnapTool', id: 417375580   # Window positioning - **PAID**
+mas 'iStat Menus',    id: 1319778037  # System monitoring app - **PAID**
 mas 'PCalc',          id: 403504866   # Scientific calculator - **PAID**
 mas 'Slack',          id: 803453959
+mas 'Steam Link',     id: 1246969117  # Steam link, just because
 mas 'Xcode',          id: 497799835
