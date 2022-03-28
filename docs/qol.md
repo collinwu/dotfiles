@@ -6,6 +6,8 @@
 
 - Download [1Password browser extension(s)](https://support.1password.com/getting-started-browser/)
 
+- Other browser extensions to consider [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en), [HTTPS Everywhere](https://www.eff.org/https-everywhere), [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US)
+
 - Cloud file sharing (Dropbox, Google Drive, iCloud, etc)
 
   - Dropbox was removed from `Brewfile` as I think there are better options out there and also with `SHA` enforcement, Dropbox did not pass this.
