@@ -44,6 +44,7 @@ cask 'mullvadvpn'             # VPN
 cask 'obsidian'               # Knowledge base that works on top of a local folder of plain text Markdown files
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'zotero'                 # Personal research assistant
 
 ## App Store
 mas '1Password',      id: 1333542190
