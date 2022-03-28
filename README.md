@@ -24,11 +24,22 @@ $ git clone https://github.com/collinwu/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ bootstrap
 
+# if using a mac m1, you may need to add this to your ~/.zshrc config file
+`eval $(/opt/homebrew/bin/brew shellenv)`
+# or just append it to the end of `.zshrc` file
+$ echo `eval $(/opt/homebrew/bin/brew shellenv)` >> ~/.zshrc
+
+# then run `brew bundle` on Brewfile
+$ cd homebrew
+$ brew bundle
+
 # run stow to symlink to $HOME
 $ stow asdf
 $ stow zsg
 $ stow ...
 ```
+
+Some additional documentation are in the `/docs` directory. [QOL](/docs/qol.md) has resources on additional configuration and applications that might be useful.
 
 Run through [CHECKLIST](CHECKLIST.md) afterward as well.
 
