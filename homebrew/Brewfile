@@ -32,7 +32,7 @@ brew 'youtube-dl'                # Download YouTube videos from the command-line
 brew 'zsh-syntax-highlighting'   # Fish shell like syntax highlighting for zsh
 
 ## casks
-cask_args appdir: '~/Applications', require_sha: true
+cask_args require_sha: true
 
 cask 'bartender'              # Menu bar icon organizer
 cask 'brave-browser'
