@@ -13,11 +13,16 @@
   - Dropbox was removed from `Brewfile` as I think there are better options out there and also with `SHA` enforcement, Dropbox did not pass this.
 
 - Mac Apps
+
   - [Alfred & Alfred Power Pack](https://www.alfredapp.com/)
     - **Note:** Could store and sync your Alfred preferences in a number of ways, Dropbox is supported by default.
     - [Awesome Alfred Workflows](https://github.com/alfred-workflows/awesome-alfred-workflows) & [Alfred Workflows](https://github.com/zenorocha/alfred-workflows)
   - [iStat Menus](https://bjango.com/mac/istatmenus/)
   - [Spotify](https://www.spotify.com/us/download/)
+
+- Additional Casks / Packages
+  - [Anki](https://apps.ankiweb.net/) - https://formulae.brew.sh/cask/anki
+  - [asciinema](https://asciinema.org/) - https://formulae.brew.sh/formula/asciinema
 
 ## Missing Anything?
 
