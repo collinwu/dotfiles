@@ -55,4 +55,5 @@ mas 'iStat Menus',    id: 1319778037  # System monitoring app - **PAID**
 mas 'PCalc',          id: 403504866   # Scientific calculator - **PAID**
 mas 'Slack',          id: 803453959
 mas 'Steam Link',     id: 1246969117  # Steam link, just because
+mas 'The Unarchiver'  id: 425424353   # Data decompression utility
 mas 'Xcode',          id: 497799835
