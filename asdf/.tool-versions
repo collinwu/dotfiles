@@ -1,4 +1,4 @@
-golang 1.15.5
-nodejs l8.12.1
+golang 1.18.9
+nodejs lts-hydrogen
 python 3.9.7
 ruby 2.7.2
