@@ -1,7 +1,6 @@
 ## $ brew bundle
 
 # Taps
-tap 'ethereum/ethereum'
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -22,7 +21,7 @@ brew 'jq'                        # Lightweight and flexible command-line JSON pr
 brew 'kubectl'                   # The Kubernetes command-line tool
 brew 'mas'                       # CLI for Mac App Store
 brew 'neovim'                    # Ambitious Vim-fork focused on extensibility and agility
-brew 'solidity'                  # Contract-oriented programming language
+brew 'pipx'                      # Python apps in isolated envs
 brew 'stow'                      # Dotfiles linker
 brew 'tldr'                      # Simplified and community-driven man pages
 brew 'tree'                      # Display directories as trees
@@ -39,9 +38,11 @@ cask 'bartender'              # Menu bar icon organizer
 cask 'brave-browser'
 cask 'cryptomator'            # Multi-platform client-side cloud file encryption tool
 cask 'discord'
+cask 'dbeaver-community'.     # DB management tool
 cask 'docker'
 cask 'iterm2'
-cask 'mullvadvpn'             # VPN
+cask 'macfuse'                # Cryptomator dependency
+cask 'mullvad-vpn'            # VPN
 cask 'obsidian'               # Knowledge base that works on top of a local folder of plain text Markdown files
 cask 'postman'                # API platform
 cask 'visual-studio-code'
